@@ -1,0 +1,193 @@
+@import "../mamkaWeb/node_modules/bootstrap/scss/bootstrap.scss";
+
+//-----------------NAVBAR
+
+.middle {
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.middle h4:hover {
+  border-bottom: 2px solid #883600;
+}
+
+//-----------------BACKGROUND
+
+video {
+  width: 100%;
+  height: 100%;
+  border-bottom: 3px solid #883600;
+}
+.self {
+  margin: 0 auto;
+}
+.s1 {
+  border-bottom: 4px solid #883600;
+}
+.s2 {
+  background-color: rgba(239, 217, 180, 0.5);
+}
+
+.estate {
+  padding: 20px;
+  border-top: 8px solid #883600;
+  border-bottom: 8px solid #883600;
+}
+.estate h3 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+//-----------------STRIPE
+
+.services {
+  font-weight: 300;
+  font-size: large;
+}
+.stripe {
+  background-color: rgba(239, 217, 180, 1);
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 80px;
+  padding-bottom: 110px;
+}
+.stripe p {
+  font-weight: 600;
+}
+
+//-----------------CARD
+
+.card {
+  padding: 5px;
+}
+.card .btn {
+  border: 2px solid #883600;
+  background-color: transparent;
+  color: black;
+}
+.card .btn:hover {
+  background-color: rgba(210, 122, 64, 0.5);
+}
+
+//-----------------FORM
+
+.formC {
+  height: 450px;
+  width: 600px;
+  border-radius: 10px;
+  padding: 18px;
+  margin: 0 auto;
+  background-color: rgba(239, 217, 180, 1);
+}
+.formC button {
+  background-color: #883600;
+  color: white;
+  border: 2px solid #883600;
+  border-radius: 10px;
+  margin-top: 8px;
+}
+.formC input {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+input[type="checkbox"]:checked {
+  background-color: #883600;
+  border: white 2px solid;
+}
+.formC button:hover {
+  background-color: rgba(210, 122, 64, 0.5);
+}
+.forms {
+  padding: 40px;
+}
+
+//-----------------GDPR
+
+.gdpr-popup {
+  position: fixed;
+  width: 600px;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  font-weight: 600;
+  border: 3px solid #883600;
+}
+
+.gdpr-content {
+  background: rgb(255, 242, 242);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+.gdpr-popup button {
+  border: 2px solid #883600;
+  background-color: transparent;
+  color: black;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.gdpr-popup button:hover {
+  border: 2px solid #b9937a;
+}
+
+//-----------------FOOTER
+
+.sign {
+  margin-left: 70px;
+}
+.sign-text {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+footer {
+  padding-top: 10px;
+  border-top: 3px solid #883600;
+  height: 90px;
+}
+.ft {
+  padding-top: 20px;
+}
+.link-ft {
+  text-decoration: none;
+  color: inherit;
+}
+
+//-----------------MODAL
+
+.modal-footer button {
+  border: 2px solid #883600;
+  background-color: transparent;
+  color: black;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.modal-footer button:hover {
+  border: 2px solid #883600;
+  background-color: #cea990;
+  color: black;
+}
+.divider {
+  border-top: 2px solid #883600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+table td {
+  border-bottom: 1px solid #883600;
+}
+.carousel-inner img {
+  width: 400px;
+  height: 400px;
+}
+.img-thumbnail {
+  width: 180px;
+  height: 100px;
+}

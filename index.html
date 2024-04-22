@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plačekova</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" href="images/ikonka1.png">
+  </head>
+  <body>
+     <!-- GDPR -->
+    <div id="gdpr-popup" class="gdpr-popup">
+      <div class="gdpr-content">
+        <button id="gdpr-close" style="position: absolute; top: 0; right: 0; width: 40px; height: 40px; ">X</button>
+        <h2>Souhlas se zpracováním osobních údajů</h2>
+        <p>Tento web používá soubory cookie
+          Soubory cookie používáme k personalizaci obsahu a reklam, poskytování funkcí sociálních médií a analýze naší návštěvnosti. Informace o vašem používání našich stránek také sdílíme s našimi partnery v oblasti sociálních médií, reklamy a analýzy, kteří je mohou kombinovat s dalšími informacemi, které jste jim poskytli nebo které shromáždili při vašem používání jejich služeb.</p>
+        <button id="gdpr-accept">Souhlasím</button>
+        <button id="gdpr-necessary">Pouze nezbytné</button>
+        <button id="gdpr-disagree">Nesouhlasím</button>
+      </div>
+    </div>
+    <!-- Promo -->
+    <section>
+      <a href="" id="domu"></a>
+      <video src="videa/Promo V_2 smallHeight.mp4" autoplay muted loop></video>
+    </section>
+    <section class="s1">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                Offcanvas
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="middle">
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link mx-lg-2 pe-5" aria-current="page" href="#domu"
+                        ><h4>Domů</h4></a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-lg-2 pe-5" href="#sluzby"><h4>Služby</h4></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-lg-2 pe-5" href="#nemovitosti"
+                        ><h4>Nemovitosti</h4></a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-lg-2 pe-5" href="#form"><h4>Formulář</h4></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link mx-lg-2" href="#kontakt"
+                        ><h4>Kontakt</h4></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- Služby -->
+    <section class="services s2">
+      <div class="container">
+        <a href="" id="sluzby"></a>
+        <div class="row justify-content-center text-center">
+          <div class="col stripe">
+            <img src="images/ikonka1.png" alt="" width="100px" height="100px">
+            <h3 class="pb-3 display-5"><strong>Prodej</strong></h3>
+            <p>
+              Povedu vás celým procesem od stanovení ceny, přes uvedení nabídky
+              až po samotný podpis smluv a další právní náležitosti nezbytné k
+              prodeji nemovitosti. S mou odborností a praxí se nemusíte bát
+              žádných komplikací. <br /><br />
+              Jsem tu proto, abych všechna možná úskalí pohlídala, a zajistila,
+              že celý proces bude pro vás co nejpohodlnější
+            </p>
+          </div>
+          <div class="col stripe">
+            <img src="images/ikonka2.png" alt="" width="100px" height="100px">
+            <h3 class="pb-3 display-5"><strong>Pronájem</strong></h3>
+            <p>
+              Chystáte se pronajímat svou nemovitost a chtěli byste zajistit,
+              aby celý proces proběhl hladce a bez stresu. Mým cílem je najít
+              pro vás spolehlivé a kvalitní nájemce dle vašich požadavků. <br />
+              Společně dosáhneme úspěšného pronájmu vaší nemovitosti.
+            </p>
+          </div>
+          <div class="col stripe">
+            <img src="images/ikonka3.png" alt="" width="100px" height="100px">
+            <h3 class="pb-3 display-5"><strong>Zastoupení</strong></h3>
+            <p>
+              Ať už rozšiřujete firmu a hledáte nové prostory, nebo potřebujete
+              poradit či zastoupit při koupi nemovitosti.  Společně se vyhneme
+              všem úskalím, které vznikají při koupi a pronájmu. Nemusíte se
+              tedy bát, že byste si nepohlídali všechny důležité aspekty.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Nemovitosti -->
+    <section class="s2 estate">
+      <div class="container">
+        <a href="" id="nemovitosti"></a>
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <h3 class="display-5 text-center">Aktuální nabídka</h3>
+          </div>
+
+          <!-- estateOne -->
+          <div class="card col-3 m-3" style="width: 18rem">
+            <img
+              src="images/house1.jpg"
+              class="card-img-top"
+              alt="..."
+              width="100px"
+              height="190px"
+            />
+            <div class="card-body">
+              <h3 class="card-title">PRONÁJEM <br/> <strong>Byt 2+KK</strong></h3>
+              <h5>Český Těšín</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#estateOne">
+                  Další informace
+                </button>
+              </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="estateOne" tabindex="-1" aria-labelledby="labelEstate1" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title display-5" id="labelEstate1">Byt 2+KK Český Těšín</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-12">
+                         <!-- Carousel -->
+                          <div id="carouselEstateOne" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="images/house1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/house2.jpg" class="d-block w-100 " alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/house3.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/house4.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/house5.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <!-- Thumbnails -->
+                            <div class="row">
+                              <div class="col-12 divider"></div>
+                              <div class="col-2">
+                                <img src="images/house1.jpg" class="img-thumbnail" data-bs-target="#carouselEstateOne" data-bs-slide-to="0">
+                              </div>
+                              <div class="col-2">
+                                <img src="images/house2.jpg" class="img-thumbnail" data-bs-target="#carouselEstateOne" data-bs-slide-to="1">
+                              </div>
+                              <div class="col-2">
+                                <img src="images/house3.jpg" class="img-thumbnail" data-bs-target="#carouselEstateOne" data-bs-slide-to="2">
+                              </div>
+                              <div class="col-2">
+                                <img src="images/house4.jpg" class="img-thumbnail" data-bs-target="#carouselEstateOne" data-bs-slide-to="3">
+                              </div>
+                              <div class="col-2">
+                                <img src="images/house5.jpg" class="img-thumbnail" data-bs-target="#carouselEstateOne" data-bs-slide-to="4">
+                              </div>
+                              <div class="col-2">
+                                <img src="images/prep.png" class="img-thumbnail" data-bs-target="#carouselEstateOne" data-bs-slide-to="5">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselEstateOne" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselEstateOne" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                             <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                        </div>
+                        <!-- Carousel END -->
+                        <!-- Text Part -->
+                        <div class="col-6 mt-4">
+                          <h4>Bližší informace</h4>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit modi temporibus quod explicabo illo totam quaerat. Fuga, quod quae doloribus hic perspiciatis cupiditate excepturi quisquam. Voluptas illum provident, deleniti cum eius alias aspernatur ad consequuntur commodi, illo, <br/>
+                            rerum voluptatibus quaerat?</p>
+                        </div>
+                        <div class="col-6 mt-4">
+                          <table>
+                            <tr>
+                              <td>Užitná plocha</td>
+                              <td>80m&sup2</td>
+                            </tr>
+                            <tr>
+                              <td>Cena</td>
+                              <td>14 000 Kč/měsíc</td>
+                            </tr>
+                            <tr>
+                              <td>Místo</td>
+                              <td>Smetanovy Sady, Český Těšín</td>
+                            </tr>
+                            <tr>
+                              <td>Vlastnictví</td>
+                              <td>Osobní</td>
+                            </tr>
+                            <tr>
+                              <td>Datum nastěhování</td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <td>Stav objektu</td>
+                              <td>Dobrý</td>
+                            </tr>
+                            <tr>
+                              <td>Energetická náročnost</td>
+                              <td>Třída - G</td>
+                            </tr>
+                          </table>
+                        </div>
+                          <h4><strong>Tel: +420 725 915 098</strong></h4>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zavřít</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- estateOne  END-->
+
+            <!-- estateTwo -->
+          <div class="card col-3 m-3" style="width: 18rem">
+            <img
+              src="images/house2.jpg"
+              class="card-img-top"
+              alt="..."
+              width="100px"
+              height="190px"
+            />
+            <div class="card-body">
+              <h3 class="card-title">PRONÁJEM <br/> <strong>Byt 3+1</strong></h3>
+              <h5>Tábor</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+               <!-- Button trigger modal -->
+               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#estateTwo">
+                Další informace
+              </button>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="estateTwo" tabindex="-1" aria-labelledby="labelEstate2" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title display-5" id="labelEstate2">Byt 3+1 Tábor</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12">
+                       <!-- Carousel -->
+                        <div id="carouselEstateTwo" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="images/house1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="images/house2.jpg" class="d-block w-100 " alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="images/house3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="images/house4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="images/house5.jpg" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <!-- Thumbnails -->
+                          <div class="row">
+                            <div class="col-12 divider"></div>
+                            <div class="col-2">
+                              <img src="images/house1.jpg" class="img-thumbnail" data-bs-target="#carouselEstateTwo" data-bs-slide-to="0">
+                            </div>
+                            <div class="col-2">
+                              <img src="images/house2.jpg" class="img-thumbnail" data-bs-target="#carouselEstateTwo" data-bs-slide-to="1">
+                            </div>
+                            <div class="col-2">
+                              <img src="images/house3.jpg" class="img-thumbnail" data-bs-target="#carouselEstateTwo" data-bs-slide-to="2">
+                            </div>
+                            <div class="col-2">
+                              <img src="images/house4.jpg" class="img-thumbnail" data-bs-target="#carouselEstateTwo" data-bs-slide-to="3">
+                            </div>
+                            <div class="col-2">
+                              <img src="images/house5.jpg" class="img-thumbnail" data-bs-target="#carouselEstateTwo" data-bs-slide-to="4">
+                            </div>
+                            <div class="col-2">
+                              <img src="images/prep.png" class="img-thumbnail" data-bs-target="#carouselEstateTwo" data-bs-slide-to="5">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselEstateTwo" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselEstateTwo" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                           <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <!-- Carousel END -->
+                      <!-- Text Part -->
+                      <div class="col-6 mt-4">
+                        <h4>Bližší informace</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit modi temporibus quod explicabo illo totam quaerat. Fuga, quod quae doloribus hic perspiciatis cupiditate excepturi quisquam. Voluptas illum provident, deleniti cum eius alias aspernatur ad consequuntur commodi, illo, <br/>
+                          rerum voluptatibus quaerat?</p>
+                      </div>
+                      <div class="col-6 mt-4">
+                        <table>
+                          <tr>
+                            <td>Užitná plocha</td>
+                            <td>75m&sup2</td>
+                          </tr>
+                          <tr>
+                            <td>Cena</td>
+                            <td>13 500 Kč/měsíc</td>
+                          </tr>
+                          <tr>
+                            <td>Místo</td>
+                            <td>Smetanovy Sady, Český Těšín</td>
+                          </tr>
+                          <tr>
+                            <td>Vlastnictví</td>
+                            <td>Osobní</td>
+                          </tr>
+                          <tr>
+                            <td>Datum nastěhování</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td>Stav objektu</td>
+                            <td>Dobrý</td>
+                          </tr>
+                          <tr>
+                            <td>Energetická náročnost</td>
+                            <td>Třída - G</td>
+                          </tr>
+                        </table>
+                      </div>
+                        <h4><strong>Tel: +420 725 915 098</strong></h4>
+                      </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zavřít</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- estateTwo  END-->
+          <!-- estateThree -->
+          <div class="card col-3 m-3" style="width: 18rem">
+            <img
+              src="images/house3.jpg"
+              class="card-img-top"
+              alt="..."
+              width="100px"
+              height="190px"
+            />
+            <div class="card-body">
+              <h3 class="card-title">PRODEJ<br/> <strong>Byt 2+1</strong></h3>
+              <h5>Tábor</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#estateThree">
+                Další informace
+              </button>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="estateThree" tabindex="-1" aria-labelledby="labelEstate3" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title display-5" id="labelEstate3">Byt 2+1 Tábor</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12">
+                       <!-- Carousel -->
+                        <div id="carouselEstateThree" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="images/house1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="images/house2.jpg" class="d-block w-100 " alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="images/house3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="images/house4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="images/house5.jpg" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <!-- Thumbnails -->
+                          <div class="row">
+                            <div class="col-12 divider"></div>
+                            <div class="col-2">
+                              <img src="images/house1.jpg" class="img-thumbnail" data-bs-target="#carouselEstateThree" data-bs-slide-to="0">
+                            </div>
+                            <div class="col-2">
+                              <img src="images/house2.jpg" class="img-thumbnail" data-bs-target="#carouselEstateThree" data-bs-slide-to="1">
+                            </div>
+                            <div class="col-2">
+                              <img src="images/house3.jpg" class="img-thumbnail" data-bs-target="#carouselEstateThree" data-bs-slide-to="2">
+                            </div>
+                            <div class="col-2">
+                              <img src="images/house4.jpg" class="img-thumbnail" data-bs-target="#carouselEstateThree" data-bs-slide-to="3">
+                            </div>
+                            <div class="col-2">
+                              <img src="images/house5.jpg" class="img-thumbnail" data-bs-target="#carouselEstateThree" data-bs-slide-to="4">
+                            </div>
+                            <div class="col-2">
+                              <img src="images/prep.png" class="img-thumbnail" data-bs-target="#carouselEstateThree" data-bs-slide-to="5">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselEstateThree" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselEstateThree" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                           <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <!-- Carousel END -->
+                      <!-- Text Part -->
+                      <div class="col-6 mt-4">
+                        <h4>Bližší informace</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit modi temporibus quod explicabo illo totam quaerat. Fuga, quod quae doloribus hic perspiciatis cupiditate excepturi quisquam. Voluptas illum provident, deleniti cum eius alias aspernatur ad consequuntur commodi, illo, <br/>
+                          rerum voluptatibus quaerat?</p>
+                      </div>
+                      <div class="col-6 mt-4">
+                        <table>
+                          <tr>
+                            <td>Užitná plocha</td>
+                            <td>60m&sup2</td>
+                          </tr>
+                          <tr>
+                            <td>Cena</td>
+                            <td>2 500 000 Kč</td>
+                          </tr>
+                          <tr>
+                            <td>Místo</td>
+                            <td>Smetanovy Sady, Český Těšín</td>
+                          </tr>
+                          <tr>
+                            <td>Vlastnictví</td>
+                            <td>Osobní</td>
+                          </tr>
+                          <tr>
+                            <td>Datum nastěhování</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td>Stav objektu</td>
+                            <td>Dobrý</td>
+                          </tr>
+                          <tr>
+                            <td>Energetická náročnost</td>
+                            <td>Třída - G</td>
+                          </tr>
+                        </table>
+                      </div>
+                        <h4><strong>Tel: +420 725 915 098</strong></h4>
+                      </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zavřít</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- estateThree  END-->
+          <!-- estateFour -->
+          <div class="card col-3 m-3" style="width: 18rem">
+            <img
+              src="images/house4.jpg"
+              class="card-img-top"
+              alt="..."
+              width="100px"
+              height="190px"
+            />
+            <div class="card-body">
+              <h3 class="card-title">PRODEJ <br/> <strong>Rodinný dům</strong></h3>
+              <h5>Pelhřimov</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#estateFour">
+                Další informace
+              </button>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="estateFour" tabindex="-1" aria-labelledby="labelEstate4" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title display-5" id="labelEstate4">Rodinný dům Pelhřimov</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12">
+                       <!-- Carousel -->
+                        <div id="carouselEstateFour" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="images/house4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="images/house2.jpg" class="d-block w-100 " alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="images/house3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="images/house1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="images/house5.jpg" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <!-- Thumbnails -->
+                          <div class="row">
+                            <div class="col-12 divider"></div>
+                            <div class="col-2">
+                              <img src="images/house4.jpg" class="img-thumbnail" data-bs-target="#carouselEstateFour" data-bs-slide-to="0">
+                            </div>
+                            <div class="col-2">
+                              <img src="images/house2.jpg" class="img-thumbnail" data-bs-target="#carouselEstateFour" data-bs-slide-to="1">
+                            </div>
+                            <div class="col-2">
+                              <img src="images/house3.jpg" class="img-thumbnail" data-bs-target="#carouselEstateFour" data-bs-slide-to="2">
+                            </div>
+                            <div class="col-2">
+                              <img src="images/house1.jpg" class="img-thumbnail" data-bs-target="#carouselEstateFour" data-bs-slide-to="3">
+                            </div>
+                            <div class="col-2">
+                              <img src="images/house5.jpg" class="img-thumbnail" data-bs-target="#carouselEstateFour" data-bs-slide-to="4">
+                            </div>
+                            <div class="col-2">
+                              <img src="images/prep.png" class="img-thumbnail" data-bs-target="#carouselEstateFour" data-bs-slide-to="5">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselEstateFour" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselEstateFour" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                           <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                      <!-- Carousel END -->
+                      <!-- Text Part -->
+                      <div class="col-6 mt-4">
+                        <h4>Bližší informace</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit modi temporibus quod explicabo illo totam quaerat. Fuga, quod quae doloribus hic perspiciatis cupiditate excepturi quisquam. Voluptas illum provident, deleniti cum eius alias aspernatur ad consequuntur commodi, illo, <br/>
+                          rerum voluptatibus quaerat?</p>
+                      </div>
+                      <div class="col-6 mt-4">
+                        <table>
+                          <tr>
+                            <td>Užitná plocha</td>
+                            <td>80m&sup2</td>
+                          </tr>
+                          <tr>
+                            <td>Plocha zahrady</td>
+                            <td>120m&sup2</td>
+                          </tr>
+                          <tr>
+                            <td>Plocha pozemku</td>
+                            <td>200m&sup2</td>
+                          </tr>
+                          <tr>
+                            <td>Cena</td>
+                            <td>7 000 000 K</td>
+                          </tr>
+                          <tr>
+                            <td>Místo</td>
+                            <td>Smetanovy Sady, Český Těšín</td>
+                          </tr>
+                          <tr>
+                            <td>Datum nastěhování</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td>Stav objektu</td>
+                            <td>Dobrý</td>
+                          </tr>
+                          <tr>
+                            <td>Energetická náročnost</td>
+                            <td>Třída - G</td>
+                          </tr>
+                        </table>
+                      </div>
+                        <h4><strong>Tel: +420 725 915 098</strong></h4>
+                      </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zavřít</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- estateFour END-->
+          
+        </div>
+      </div>
+    </section>
+    <!-- Formulař -->
+    <section class="s2 forms">
+      <div class="container">
+        <a href="" id="form"></a>
+        <div class="row">
+          <div class="col-6 self">
+            <h1>O mně</h1>
+      
+            <div class="row">
+              <div class="col-6">
+                <img src="images/jana.png" alt="" width="320px" height="320px" />
+              </div>
+              <div class="col-md-6 col-sm-12 pt-2">
+                <p>V odvětví realit se pohybuji již od roku 2008. Mohu Vám tedy zaručit pohodlný průběh prodeje či pronájmu Vaší nemovitosti. <br/> <br/>Mezi mé služby patří také homestaging, virtualní prohlídka, nebo focení a natáčení dronem. V případě zájmu, zastupuji firmy při jednání a hledání nových prostor.</p>
+                <img src="images/sign.png" alt="" width="210px" height="110px" class="sign">
+              </div>
+            </div>
+            <div class="col-12">
+             
+              <div class="row sign-text">
+                <div class="col-md-6 col-sm-12"><p><img src="images/phone-icon.png" alt="" width="25px" height="25px" class="me-3">+420 725 915 098</p></div>
+                <div class="col-md-6 col-sm-12"><p><img src="images/adress-icon.png" alt="" width="25px" height="25px" class="me-3">Jížní Čechy, Vysočina, Praha</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 ">
+              <div class="formC">
+              <h3>Kontaktní formulář</h3>
+              <form>
+                <div class="mb-3">
+                  <label for="jmeno" class="form-label">Jméno a přijmení:</label>
+                  <input type="text" class="form-control" id="jmeno" />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email:</label>
+                  <input type="email" class="form-control" id="email" />
+                </div>
+                <div class="mb-3">
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="sluzby"
+                    />
+                    <label class="form-check-label" for="sluzby"> Prodej </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="sluzby2"
+                      checked
+                    />
+                    <label class="form-check-label" for="sluzby2"> Pronajem </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="sluzby3"
+                      checked
+                    />
+                    <label class="form-check-label" for="sluzby3">
+                      Zastoupení
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="sluzby4"
+                      checked
+                    />
+                    <label class="form-check-label" for="sluzby4"> Jiné </label>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="info">Bližší informace:</label>
+                  <textarea
+                    class="form-control"
+                    id="info"
+                    placeholder="info:"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Odeslat</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="s2 bg-light">
+      <a href="" id="kontakt"></a>
+      
+      <div class="container ">
+        <div class="row justify-content-center">
+          <div class="col text-center ft">
+            <p>&copy 2024 Jana Plačeková</p>
+          </div>
+          <div class="col text-center ft">
+            <a href="gdpr.html" class="link-ft">
+              <p>Ochrana osobních údajů</p>
+            </a>
+          </div>
+          <div class="col text-center"><a href="" id="domu"><img src="images/logo.png" alt="" width="80px" height="80px"></a></div>
+          <div class="col text-center ft">
+            <p>+420 725 915 098</p>
+          </div>
+          <div class="col text-center ft"><p>placekova.reality@gmail.com</p></div>
+        </div>
+      </div>
+    </footer>
+    <script src="bootstrap.bundle.min.js">
+      // Get the GDPR popup and buttons
+const gdprPopup = document.getElementById('gdpr-popup');
+const gdprClose = document.getElementById('gdpr-close');
+const gdprAccept = document.getElementById('gdpr-accept');
+const gdprNecessary = document.getElementById('gdpr-necessary');
+const gdprDisagree = document.getElementById('gdpr-disagree');
+
+// Show the GDPR popup only if the user hasn't accepted it yet
+if (!localStorage.getItem('gdprAccepted')) {
+  gdprPopup.style.display = 'flex';
+}
+
+// When the user accepts the GDPR, store it in localStorage
+gdprAccept.onclick = function() {
+  localStorage.setItem('gdprAccepted', 'true');
+  gdprPopup.style.display = 'none';
+}
+
+// Close the GDPR popup when the "X" button is clicked
+gdprClose.onclick = function() {
+  gdprPopup.style.display = 'none';
+}
+
+// Close the GDPR popup when the "Necessary" button is clicked
+gdprNecessary.onclick = function() {
+  gdprPopup.style.display = 'none';
+}
+
+// Close the GDPR popup when the "Disagree" button is clicked
+gdprDisagree.onclick = function() {
+  gdprPopup.style.display = 'none';
+}
+    </script>
+  </body>
+</html>
